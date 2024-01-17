@@ -1,0 +1,68 @@
+html{
+    background-image: url(CLOUD.webp); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+ }
+
+.box{
+    background-color:  rgb(250, 229, 211);
+    margin-left: 550px;
+    margin-top: 200px;
+    /* box-shadow: 3px 3px pink, -3px -3px pink; */
+    height: 400px;
+    width: 500px;
+    background-image: url(SAR.gif); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+ 
+h1{
+    color: brown;
+    padding-top: 60px;
+} 
+
+button:hover{
+    color: white;
+    background-color: darkgreen;
+    font-size: larger;
+}
+
+label{
+    font-size: larger;
+    color: brown;
+    padding-left: 50px;
+}
+
+
+.b1{
+    justify-content: center;
+    margin-left: 90px;
+}
+
+
+.box2{
+    display: inline-block;
+    position: relative;
+    /* border: 1px solid black; */
+    
+}
+
+
+.box2 input{
+    /* padding: 10px 5px; */
+    outline: none;
+    border: 0;
+    margin-left: 6px;
+}
+
+
+.pass-icon{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 18px;
+    cursor: pointer;
+
+}
